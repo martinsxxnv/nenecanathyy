@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pra Minha Rapunzel ❤️</title>
+    <!-- Fontes Estilo Capa de Álbum e Roda de Samba -->
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link href="https://googleapis.com/css2?family=Cinzel:wght@700;900&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,6 +17,7 @@
         }
 
         body {
+            /* Cores Escuras e Quentes - Paleta de Erro Favorito */
             background-color: #3d0a0e;
             background-image: linear-gradient(180deg, #2b0508 0%, #120102 100%);
             color: #f5f5f5;
@@ -29,7 +31,7 @@
             font-family: 'Montserrat', sans-serif;
         }
 
-        /* Luz de Abajur Amarela Centralizada */
+        /* Efeito de Iluminação de Abajur Amarelo de Botequim */
         body::before {
             content: '';
             position: absolute;
@@ -43,7 +45,7 @@
             pointer-events: none;
         }
 
-        /* Card Principal */
+        /* Moldura Principal do Site */
         .main-card {
             background: rgba(15, 10, 11, 0.96);
             border: 1px solid rgba(253, 224, 71, 0.25);
@@ -56,19 +58,18 @@
             overflow: hidden;
         }
 
-        /* Foto do Perfil do 2ZDinizz em Destaque */
+        /* Banner com Foto Integrada do Artista */
         .artist-header {
             width: 100%;
             height: 320px;
-            /* Foto oficial de divulgação do artista */
             background-image: linear-gradient(to bottom, rgba(15, 10, 11, 0) 40%, rgba(15, 10, 11, 1) 100%), 
-                              url('https://scdn.co');
+                              url('https://letras.mus.br');
             background-size: cover;
             background-position: center top;
             border-bottom: 2px solid #5c1319;
         }
 
-        /* Seção do Conteúdo */
+        /* Espaçamento do Texto */
         .content-area {
             padding: 30px 25px 40px 25px;
             text-align: center;
@@ -76,7 +77,7 @@
 
         .track-badge {
             font-family: 'Cinzel', serif;
-            color: #fde047; /* Amarelo Abajur */
+            color: #fde047; 
             font-size: 11px;
             font-weight: 700;
             text-transform: uppercase;
@@ -104,12 +105,12 @@
             font-weight: 600;
         }
 
-        /* Texto da Declaração */
+        /* Bloco Poético da Declaração */
         .lyrics-content {
             text-align: left;
             line-height: 1.9;
             font-size: 1.05rem;
-            color: #e3dec9; /* Tom Marfim de Partitura */
+            color: #e3dec9; 
         }
 
         .lyrics-content p {
@@ -140,7 +141,7 @@
             padding-left: 15px;
         }
 
-        /* Área do Botão do Spotify */
+        /* Botão do Spotify Redesenhado */
         .action-area {
             margin-top: 40px;
             border-top: 1px solid rgba(253, 224, 71, 0.15);
@@ -173,7 +174,7 @@
             border-color: #fde047;
         }
 
-        /* Efeito Visual de Chuva de Sambista */
+        /* Chuva Interativa de Rosas e Notas Musicais */
         .samba-fall {
             position: fixed;
             top: -10%;
@@ -198,7 +199,7 @@
 <body>
 
     <div class="main-card">
-        <!-- O rosto do 2ZDinizz carregando no topo do site -->
+        <!-- Divisor com a Imagem do Cantor -->
         <div class="artist-header"></div>
 
         <div class="content-area">
@@ -219,6 +220,7 @@
             </div>
 
             <div class="action-area">
+                <!-- Direcionamento Exato para o Spotify Oficial -->
                 <a href="https://spotify.com" target="_blank" class="btn-play">
                     Soltar o Som Oficial
                 </a>
@@ -226,6 +228,7 @@
         </div>
     </div>
 
+    <!-- Script de Animação das Flores e Notas -->
     <script>
         function createSambaFlakes() {
             const elements = ['🌹', '🎶', '❤️', '🎸'];
